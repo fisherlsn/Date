@@ -1,0 +1,54 @@
+
+/*content*/
+.content{
+	width: 100%;
+}
+.content_top{
+	width: 100%;
+	height: 110px;
+	background-color: #cee4e0;
+	position: relative;
+}
+.top_title{
+	font-size: 24px;
+	line-height: 100px;
+	margin-left: 28px;
+	font-weight: bold;
+}
+
+
+.content_welcome{
+	width: 750px;
+	border: 1px dashed #1abc9c;
+	margin: 20px auto;
+	line-height: 50px;
+	border-radius: 5px;
+	color: #6b6b6b;
+}
+.content_welcome p{
+	margin-left: 30px;
+	text-align: center;
+}
+.content_welcome p a{
+	color: #1abc9c;
+}
+.intro_bg{
+	width: 509px;
+	height: 353px;
+	margin: 50px auto;
+}
+.slogan_bottom{
+	width: 509px;
+	height: 80px;
+	margin: 0 auto;
+	border-top: 1px dashed #1abc9c;
+	line-height: 80px;
+	color: #a0bfb9;
+	text-align: center;
+	font-weight: bold;
+}
+.start{
+	cursor: pointer;
+	width: 333px;
+	margin: 30px auto 50px;
+}

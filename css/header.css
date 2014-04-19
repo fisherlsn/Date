@@ -1,0 +1,47 @@
+/*全局*/
+a:link{text-decoration : none ;color: inherit}
+a:visited {text-decoration : none ;color: inherit}
+a:hover {text-decoration : none ;cursor: pointer;color: inherit}
+a:active {text-decoration : none ;color: inherit} 
+html{
+	color: #000;
+}
+html body .green{
+	color: #1abc9c;
+}
+.main{
+	position: relative;
+	background-color: #fff;
+	width: 820px;
+	border:5px solid #e3e3e3;
+	margin: 0 auto;
+}
+
+/*header*/
+.header{
+	width: 100%;
+	height: 120px;
+}
+.logo{
+	float: left;
+	margin-top: 35px;
+	margin-left: 25px;
+}
+.person_info{
+	float: right;
+	margin-top: 63px;
+	margin-right: 35px;
+	color: #000;
+}
+.footer{
+	width: 100%;
+	background-color: #bfbfbf;
+	height: 50px;
+}
+.copyright{
+	text-align: center;
+	color: #000;
+	line-height: 50px;
+}
+
+

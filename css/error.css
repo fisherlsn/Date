@@ -1,0 +1,58 @@
+a:link{text-decoration : none ;color: inherit}
+a:visited {text-decoration : none ;color: inherit}
+a:hover {text-decoration : none ;cursor: pointer;}
+a:active {text-decoration : none ;} 
+/*content*/
+.content{
+	width: 100%;
+	position: relative;
+	padding-top: 50px;
+	height: 300px;
+}
+.regis{
+	width: 118px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	background-color: #1abc9c;
+	margin-left: 110px; 
+	font-size: 18px;
+	border-radius: 5px;
+	margin-top: 30px;
+	cursor: pointer;
+}
+.meet_error{
+	margin-left: 100px;
+	color: #e74c3c;
+	line-height: 30px;
+}
+.meet_error img,.meet_error p{
+	float: left;
+}
+.meet_error p{
+	margin-left: 10px;
+}
+.errorb{
+	margin-left: 100px;
+	font-size: 24px;
+	margin-top: 20px;
+	color: #525353;
+}
+.errors{
+	margin-left: 100px;
+	font-size: 18px;
+	margin-top: 10px;
+	color: #525353;
+}
+.error_result{
+	margin-top: 50px;
+}
+.error_result p,.error_result div{
+	float: left;
+}
+.error_result p{
+	margin-top: 30px;
+	line-height: 40px;
+	margin-left: 20px;
+}

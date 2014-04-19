@@ -1,0 +1,137 @@
+/*content*/
+.content{
+	width: 100%;
+
+}
+.create_title{
+	font-size: 24px;
+	color: #1abc9c;
+	margin-left: 25px;
+	line-height: 50px;
+}
+.create_process{
+	color: #3b3b3b;
+	margin-left: 25px;
+	line-height: 50px;
+}
+.create_process a{
+	color: #1abc9c;
+	font-weight: bold;
+}
+.create_detail{
+	margin-top: 30px;
+	width: 690px;
+	padding-top: 75px;
+	padding-left: 130px;
+	background-color: #cee4e0;
+	padding-bottom: 50px;
+	position: relative;
+}
+
+#calendar{
+	float: left;
+}
+.time_selected{
+	float: left;
+	width: 300px;
+	margin-left: 30px;
+}
+.shadow{
+	position: absolute;
+	background-color: #c7d7d6;
+	width: 293px;
+	height: 303px;
+	left: 113px;
+	top: 207px;
+	border-radius: 10px;
+}
+.detail_titleb{
+	color: #1abc9c;
+	font-size: 24px;
+	margin-left: 17px;
+}
+.detail_titles{
+	color: #34495e;
+	font-size: 14px;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+
+.time_selected,..date_selected{
+	margin-left: 30px;
+}
+.selected_title{
+	color: #34495e;
+	line-height: 50px;
+	margin-left: 15px;
+}
+.time_selected div,.date_selected div{
+	color: #7f8c8d;
+	font-size: 12px;
+	font-family: "Arial";
+	width: 120px;
+	height: 30px;
+	font-weight: bold;
+	line-height: 30px;
+	background-color: #ebedee;
+	border-radius: 5px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	cursor: pointer;
+	float: left;
+	margin-right: 15px;
+}
+.time_selected div p,.date_selected div p{
+	margin-left: 15px;
+}
+.time_selected div p img,.date_selected div p img{
+	margin-left: 15px;
+}
+.date_selected div{
+	margin-right: 30px;
+}
+.date_selected{
+	width: 500px;
+	margin-left: 20px;
+	clear: both;
+	height: auto;
+}
+select{
+	width: 130px;
+	height: 30px;
+	line-height: 30px;
+	color: #7f8c8d;
+	font-size: 12px;
+	font-family: "Arial";
+	font-weight: bold;
+	line-height: 30px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	cursor: pointer;
+	float: left;
+	margin-right: 30px;
+}
+
+
+
+.time_choose{
+	display: none;
+}
+
+.step{
+	margin: 100px 0 0 0;
+}
+.previous,.next{
+	width: 136px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: white;
+	float: left;
+	margin-right: 5px;
+	border-radius: 5px;
+	background-color: #1abc9c;
+	cursor: pointer;
+}
